@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD700; /* Dourado */
+    color: #3B1F0A; /* Marrom escuro */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3B1F0A;
+    color: #FFD700;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 2px solid #FFD700;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.trabalho {
+    flex: 0 0 300px;
+}
+
+.side-by-side {
+    display: flex;
+    gap: 1rem;
+}
+
+h2 {
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 0.5rem;
+}
+
+.trabalho {
+    background-color: rgba(255, 215, 0, 0.2);
+    border: 1px solid #FFD700;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.trabalho img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+#contato {
+    background-color: #3B1F0A;
+    color: #FFD700;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3B1F0A;
+    color: #FFD700;
+    border-top: 2px solid #FFD700;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+    header {
+        padding: 1rem;
+    }
+}
